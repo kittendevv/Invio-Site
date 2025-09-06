@@ -12,9 +12,11 @@ export default function App({ Component }: PageProps) {
           content="Clean open source invoicing software for people who just want invoices – not enterprise bloat."
         />
         <link rel="stylesheet" href="/styles.css" />
+        <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
       </head>
       <body>
         <Component />
+        <script src="/app.js"></script>
       </body>
     </html>
   );
